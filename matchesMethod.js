@@ -6,7 +6,7 @@ var matchesMethod=(function(e,vendors){
  if(!(p in o)){
   p+='Selector';
   if(!(p in o)){
-	for(var a,b=o,s=capitalize(p),i=0,m=vendors,l=m.length;i<l;i++){a=m[i]+s;alert(a);if(a in b){p=a;break;};};
+	for(var a,b=o,s=capitalize(p),i=0,m=vendors,l=m.length;i<l;i++){a=m[i]+s;if(a in b){p=a;break;};};
 	if(p.length===15){p='';};
   };
  };
